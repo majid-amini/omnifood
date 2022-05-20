@@ -3,7 +3,7 @@
     padding: 1.5rem 3rem;
     font-size: 1.8rem;
     border-radius: 1rem;
-    
+    font-weight: 500;
 }
 .btn--origin{
     color: var(--light-color);

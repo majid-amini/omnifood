@@ -2,6 +2,9 @@
 
 } */
 
+ /* ==================
+    hero--styles 
+================== */
 #hero {
     background-color: var(--primaryTint-color);
     padding: 9rem 0;
@@ -31,4 +34,40 @@
 }
 .hero-img {
     width: 100%;
+}
+
+ /* ==================
+    delivered-meals--styles 
+================== */
+.delivered--meals {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;   
+}
+.delivered--imgs {
+    display: flex;
+    
+}
+.delivered--imgs img {
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    margin-right: -1.6rem;
+    border: 0.3rem solid var(--primaryTint-color);
+    transition: all 0.3s ease-in-out;
+}
+.delivered--imgs img:hover {
+    border-color: var(--primary-color);
+}
+.delivered--imgs img:last-child {
+    margin: 0;
+}
+.delivered--text {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.delivered--text span {
+    color: var(--primaryDark-color);
+    font-weight: 700;
 }
